@@ -23,9 +23,9 @@ The challenge is to build a recipe page taken from the Front Mentor website
 
 ### Built with
 
-- [x]Structure HTML5
+- [x] Structure HTML5
 - [x] CSS 
-- [x]Mobile-first workflow
+- [x] Mobile-first workflow
 - [Next.js](https://nextjs.org/) - React framework
 
 ### What I learned
