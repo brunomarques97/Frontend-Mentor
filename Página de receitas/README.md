@@ -34,7 +34,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - [x]Structure HTML5
 - [x] CSS 
-- [ ]Mobile-first workflow
+- [x]Mobile-first workflow
 - [Next.js](https://nextjs.org/) - React framework
 
 ### What I learned
