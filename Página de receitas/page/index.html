@@ -4,19 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Recipe page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <main>
-    <section class="image"></section>
+    <section class="image">
+      <img src="../assets/images/image-omelette.jpeg" alt="Omelette">
+    </section>
     <section class="resumo">
       <h1>Simple Omelette Recipe</h1>
       <p>
@@ -25,7 +22,7 @@
       </p>
     </section>
     <section class="preparation">
-      <h5>Preparation time</h5>
+      <h3>Preparation time</h3>
       <ul>
         <li>
           <b>Total: </b>
@@ -42,7 +39,7 @@
       </ul>
     </section>
     <section class="ingredients">
-      <h3>Ingredients</h3>
+      <h2>Ingredients</h2>
 
       <ul>
         <li>2-3 large eggs</li>
@@ -53,48 +50,52 @@
       </ul>
     </section>
     <section class="instructions">
-      <h3>Instructions</h3>
+      <h2>Instructions</h2>
 
       <ol>
         <li>
-          Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+          <b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
           You can add a tablespoon of water or milk for a fluffier texture.
         </li>
         <li>
-          Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
+          <b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.
         </li>
         <li>
-          Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+          <b>Cook the omelette:</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
           the eggs evenly coat the surface.
         </li>
         <li>
-          Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
+          <b>Add fillings (optional):</b> When the eggs begin to set at the edges but are still slightly runny in the 
           middle, sprinkle your chosen fillings over one half of the omelette.
         </li>
         <li>
-          Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
+          <b>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over the 
           fillings. Let it cook for another minute, then slide it onto a plate.
         </li>
-        <li>Enjoy: Serve hot, with additional salt and pepper if needed.</li>
+        <li><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</li>
       </ol>
     </section>
     <section class="nutrition">
-      <h3>Nutrition</h3>
+      <h2>Nutrition</h2>
       <p>
         The table below shows nutritional values per serving without the additional fillings.
       </p>
       <table>
-        <tr>
-          <th>Calories</th>
-          <th>Carbs</th>
-          <th>Protein</th>
-          <th>Fat</th>
+        <tr class="linha">
+          <td>Calories</td>
+          <td>277kcal</td>
         </tr>
-        <tr>
-          <td><span>277kcal</span></td>
-          <td><span>0g</span></td>
-          <td><span>20g</span></td>
-          <td><span>22g</span></td>
+        <tr class="linha">
+          <td>Carbs</td>
+          <td>0g</td>
+        </tr>
+        <tr class="linha">
+          <td>Protein</td>
+          <td>20g</td>
+        </tr>
+        <tr >
+          <td>Fat</td>
+          <td>22g</td>
         </tr>
       </table>
     </section>

@@ -32,15 +32,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Built with
 
-- [x]Semantic HTML5 markup
-- [ ]CSS custom properties
-- [ ]Flexbox
-- [ ]CSS Grid
+- [x]Structure HTML5
+- [x] CSS 
 - [ ]Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
 
 ### What I learned
 
